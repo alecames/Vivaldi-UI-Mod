@@ -2,13 +2,13 @@
 	height: 32px;
 }
 
-#panels{
-	border:none !important;
+#panels {
+	border: none !important;
 }
 
 #switch {
 	background: #121212;
-	border:none !important;
+	border: none !important;
 }
 
 .burger-icon {
@@ -63,7 +63,6 @@
 	justify-content: center;
 	align-items: center;
 	border: none;
-	/* offset to left by 114/2px */
 	margin-left: -120px;
 	transition: all 0.15s ease-in-out;
 }
@@ -77,18 +76,14 @@
 .color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(1) {
 	margin: 0 0 0 auto;
 	height: 32px;
-	/* position: absolute; */
 }
 .color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(2) {
 	margin: 0 0 0 0;
 	height: 32px;
-	/* position:relative; */
-	/* float:right; */
 }
 .color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(3) {
 	margin: 0 0 0 0;
 	height: 32px;
-	/* position: absolute; */
 }
 
 .color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(4) {
@@ -100,7 +95,7 @@
 .UrlBar-UrlField {
 	text-align: center !important;
 	width: 100% !important;
-	left:-5px;
+	left: -5px;
 }
 
 .bookmark-bar {
@@ -112,8 +107,7 @@
 }
 
 .color-behind-tabs-off .bookmark-bar button.chevron {
-	/* display:none; */
-	right:32px;
+	right: 32px;
 }
 
 .bookmark-bar button {
@@ -137,7 +131,6 @@
 }
 .color-behind-tabs-off .bookmark-bar button:focus-visible,
 .color-behind-tabs-off .bookmark-bar button:active {
-	
 	color: #ffffffcc !important;
 	background-color: #ffffff11;
 	border-bottom: none;
@@ -233,7 +226,6 @@ input[type="color"],
 	box-shadow: none !important;
 }
 
-
-.VivaldiSvgIcon { 
-	display:none;
+.VivaldiSvgIcon {
+	display: none;
 }
