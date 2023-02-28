@@ -1,0 +1,239 @@
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar {
+	height: 32px;
+}
+
+#panels{
+	border:none !important;
+}
+
+#switch {
+	background: #121212;
+	border:none !important;
+}
+
+.burger-icon {
+	transform: scaleX(1.4) scaleY(1.2);
+	opacity: 0.5 !important;
+}
+
+.color-behind-tabs-off .SearchField,
+.color-behind-tabs-off .UrlBar-AddressField {
+	background-color: #ffffff10;
+	padding: 5px 10px;
+	border-radius: 100px;
+	height: 32px;
+	border: none;
+}
+
+#webview-container {
+	border: none !important;
+}
+
+#webpage-stack {
+	border-radius: 10px 10px 0 0;
+	border: none;
+}
+
+#panels-container {
+	border-radius: 10px 0 0 10px;
+	margin-left: 3px;
+	border: none !important;
+}
+
+#panels {
+	padding: 0;
+	margin: 0;
+}
+
+.tabbar-wrapper * {
+	background-color: transparent !important;
+}
+
+.toolbar-mainbar > .button-toolbar > button,
+.toolbar-mainbar > .toolbar-group > .button-toolbar > button {
+	background-color: #ffffff07;
+	border-radius: 100px;
+	margin: auto 2px auto 0;
+	color: #ffffffaa;
+	border: none;
+}
+
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	/* offset to left by 114/2px */
+	margin-left: -120px;
+	transition: all 0.15s ease-in-out;
+}
+
+@media (max-width: 800px) {
+	.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar {
+		margin-left: -28px;
+	}
+}
+
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(1) {
+	margin: 0 0 0 auto;
+	height: 32px;
+	/* position: absolute; */
+}
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(2) {
+	margin: 0 0 0 0;
+	height: 32px;
+	/* position:relative; */
+	/* float:right; */
+}
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(3) {
+	margin: 0 0 0 0;
+	height: 32px;
+	/* position: absolute; */
+}
+
+.color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar > :nth-child(4) {
+	margin: 0 auto 0 0;
+}
+
+.UrlFragment-Wrapper,
+.UrlFragment-Wrapper *,
+.UrlBar-UrlField {
+	text-align: center !important;
+	width: 100% !important;
+	left:-5px;
+}
+
+.bookmark-bar {
+	border: none;
+}
+
+.folder-icon {
+	display: none;
+}
+
+.color-behind-tabs-off .bookmark-bar button.chevron {
+	/* display:none; */
+	right:32px;
+}
+
+.bookmark-bar button {
+	padding: 0 7px !important;
+	color: #ffffff88 !important;
+	gap: 0 !important;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid transparent;
+	transition: all 0.15s ease-in-out;
+}
+
+.toolbar-insideinput.toolbar-insideinput.toolbar-insideinput {
+	display: none;
+}
+
+.color-behind-tabs-off .bookmark-bar button:hover {
+	color: #ffffffcc !important;
+	letter-spacing: 1px;
+	border-bottom: 1px solid white;
+	background-color: #ffffff11;
+}
+.color-behind-tabs-off .bookmark-bar button:focus-visible,
+.color-behind-tabs-off .bookmark-bar button:active {
+	
+	color: #ffffffcc !important;
+	background-color: #ffffff11;
+	border-bottom: none;
+	letter-spacing: 1px;
+	border: 1px solid #ffffff66;
+}
+
+.UrlBar-AddressField {
+	flex: 0.4 0;
+	min-width: 24em;
+	justify-content: center;
+}
+
+.theme-dark input[type="radio"],
+.theme-dark input[type="checkbox"] {
+	background-image: none;
+}
+
+input[type="button"]:not(.circular),
+input[type="submit"],
+input[type="color"],
+.FormButton {
+	background-image: none;
+	background-color: #121212;
+	height: auto;
+	padding: 8px 12px;
+}
+
+.toolbar-tabbar .newtab > button svg {
+	fill: #ffffff33;
+}
+
+.bookmark-bar > * {
+	justify-content: center;
+}
+
+.bookmark-bar {
+	margin: 5px 0 0 0;
+}
+
+.SpeedDialView-Head {
+	margin-top: 10rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.SpeedDialView-Head > * {
+	width: 100%;
+}
+
+#header {
+	background: none !important;
+}
+
+#titlebar {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+#pagetitle {
+	padding: 0 !important;
+	display: flex;
+	margin-top: 2px;
+	justify-content: center;
+	align-items: flex-end;
+	opacity: 0.3;
+}
+
+.window-buttongroup {
+	position: fixed !important;
+	top: 0px !important;
+	right: 0 !important;
+	z-index: 999 !important;
+	margin: 5px 3px 0 0 !important;
+	flex-direction: column-reverse;
+}
+
+.window-buttongroup > * {
+	width: 28px !important;
+	height: 28px !important;
+	margin: 0 0 1px 0 !important;
+	border-radius: 100px !important;
+}
+
+.toolbar-default .button-toolbar > button:enabled {
+	background: none;
+}
+
+.tab-position .tab.active.active {
+	background-color: #ffffff22 !important;
+	box-shadow: none !important;
+}
+
+
+.VivaldiSvgIcon { 
+	display:none;
+}
