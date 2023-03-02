@@ -22,7 +22,18 @@
 	padding: 5px 10px;
 	border-radius: 100px;
 	height: 32px;
-	border: none;
+	border: 2px solid transparent;
+	transition: all 0.25s ease-in-out;
+	flex: 0.54 0;
+	justify-content: center;
+}
+.UrlBar-AddressField:hover,
+.UrlBar-AddressField:active,
+.UrlBar-AddressField:focus,
+.UrlBar-AddressField:focus-visible,
+.UrlBar-AddressField:focus-within {
+	border: 2px solid #ffffff22;
+	flex: 0.54 0;
 }
 
 #webview-container {
@@ -51,11 +62,24 @@
 
 .toolbar-mainbar > .button-toolbar > button,
 .toolbar-mainbar > .toolbar-group > .button-toolbar > button {
+	transition: all 0.15s ease-in-out;
 	background-color: #ffffff07;
 	border-radius: 100px;
 	margin: auto 2px auto 0;
 	color: #ffffffaa;
-	border: none;
+	border: 2px solid transparent;
+}
+.toolbar-mainbar > .button-toolbar > button:hover,
+.toolbar-mainbar > .toolbar-group > .button-toolbar > button:hover {
+	background-color: #ffffff15 !important;
+	color: #ffffffee;
+	border: 2px solid #ffffff22;
+}
+.toolbar-mainbar > .button-toolbar > button:active,
+.toolbar-mainbar > .toolbar-group > .button-toolbar > button:active {
+	background-color: #ffffff22 !important;
+	color: #ffffffee;
+	border: 2px solid #ffffff44;
 }
 
 .color-behind-tabs-off.address-top .mainbar > .toolbar-mainbar {
@@ -63,7 +87,7 @@
 	justify-content: center;
 	align-items: center;
 	border: none;
-	margin-left: -120px;
+	margin-left: -109px;
 	transition: all 0.15s ease-in-out;
 }
 
@@ -93,9 +117,16 @@
 .UrlFragment-Wrapper,
 .UrlFragment-Wrapper *,
 .UrlBar-UrlField {
-	text-align: center !important;
+	text-align: center;
 	width: 100% !important;
 	left: -5px;
+	transition: all 0.1s ease-in-out;
+}
+
+.UrlFragment-Wrapper:hover,
+.UrlFragment-Wrapper > :hover,
+.UrlBar-UrlField {
+	text-align: left !important;
 }
 
 .bookmark-bar {
@@ -138,12 +169,6 @@
 	border: 1px solid #ffffff66;
 }
 
-.UrlBar-AddressField {
-	flex: 0.4 0;
-	min-width: 24em;
-	justify-content: center;
-}
-
 .theme-dark input[type="radio"],
 .theme-dark input[type="checkbox"] {
 	background-image: none;
@@ -183,7 +208,7 @@ input[type="color"],
 }
 
 #header {
-	background: none !important;
+	background: transparent !important;
 }
 
 #titlebar {
